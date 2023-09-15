@@ -27,12 +27,14 @@ header {
 
 .logo {
   color: var(--clr-rosita);
+  font-family: var(--font-roboto);
 }
 
 .nav-list {
   list-style-type: none;
   display: flex;
   gap: 1rem;
+  font-family: var(--font-roboto);
 }
 
 .nav-list li a {
@@ -62,6 +64,7 @@ header {
   width: 50%;
   padding-inline: 5em;
   padding-block: 2em;
+  font-family: var(--font-roboto);
 }
 .card-presentacion h2 {
   font-size: 4.5em;
