@@ -9,3 +9,8 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
   nav.classList.remove("visible");
 });
+
+const botonLanding = document.getElementById("plan-landing");
+botonLanding.addEventListener("click", () => {
+  alert("hola");
+});
