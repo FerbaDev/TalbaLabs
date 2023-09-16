@@ -10,7 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  font-family: var(--font-roboto);
   background-color: var(--clr-violeta);
 }
 svg {
@@ -28,14 +28,12 @@ header {
 
 .logo {
   color: var(--clr-rosita);
-  font-family: var(--font-roboto);
 }
 
 .nav-list {
   list-style-type: none;
   display: flex;
   gap: 1rem;
-  font-family: var(--font-roboto);
 }
 
 .nav-list li a {
@@ -67,7 +65,6 @@ main {
   align-items: center;
   padding-left: 2rem;
   padding-block: 2em;
-  font-family: var(--font-roboto);
 }
 .card-presentacion h2 {
   font-size: 4em;
@@ -87,12 +84,12 @@ main {
 /****************** que hacemos? *****************/
 .card-hacemos {
   color: aliceblue;
-  padding-inline: 3em;
+
   padding-block: 2em;
 }
 .card-hacemos h2 {
   color: var(--clr-rosita);
-  font-family: var(--font-roboto);
+
   font-size: 2em;
   padding-inline: 2em;
 }
@@ -110,9 +107,7 @@ main {
   color: aliceblue;
   padding: 7em;
 }
-.serv-info {
-  font-family: var(--font-roboto);
-}
+
 .serv-info h2 {
   text-transform: uppercase;
   font-size: 3em;
