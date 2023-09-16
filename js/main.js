@@ -12,5 +12,12 @@ cerrar.addEventListener("click", () => {
 
 const botonLanding = document.getElementById("plan-landing");
 botonLanding.addEventListener("click", () => {
-  alert("hola");
+  modalCentro.classList.add("active");
+});
+
+const modalCentro = document.querySelector("#modal-centro");
+const cerrarModalCentro = document.querySelector("#cerrar-modal-centro");
+
+cerrarModalCentro.addEventListener("click", () => {
+  modalCentro.classList.remove("active");
 });
