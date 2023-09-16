@@ -18,6 +18,7 @@ svg {
 }
 
 header {
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,26 +49,28 @@ header {
 }
 
 /************* HERO ***************/
-
+main {
+  max-width: 100%;
+}
 .hero {
   height: 80vh;
   display: flex;
   justify-content: space-around;
   align-content: center;
+  max-width: 100%;
 }
 .card-presentacion {
   color: aliceblue;
   height: 90%;
   display: flex;
   flex-direction: column;
-  align-items: start;
-  width: 50%;
-  padding-inline: 5em;
+  align-items: center;
+  padding-left: 2rem;
   padding-block: 2em;
   font-family: var(--font-roboto);
 }
 .card-presentacion h2 {
-  font-size: 4.5em;
+  font-size: 4em;
   text-transform: uppercase;
 }
 .card-presentacion p {
