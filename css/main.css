@@ -132,7 +132,7 @@ main {
   justify-content: center;
   gap: 2.5rem;
   color: var(--clr-rosita);
-  padding-left: var(--padleft);
+  padding: var(--padleft);
 }
 .card-plan h2 {
   background-color: aliceblue;
