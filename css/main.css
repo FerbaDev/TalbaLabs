@@ -56,7 +56,7 @@ main {
   display: flex;
   align-content: center;
   max-width: 100%;
-  padding: var(--padleft);
+  padding-left: var(--padleft);
 }
 .card-presentacion {
   color: aliceblue;
@@ -104,8 +104,8 @@ main {
 
 .serv-section {
   color: aliceblue;
-  padding: var(--padleft);
-  max-width: 90%;
+  padding-left: var(--padleft);
+  max-width: 95%;
   padding-bottom: 3em;
   display: flex;
   flex-direction: column;
@@ -132,7 +132,7 @@ main {
   justify-content: center;
   gap: 2.5rem;
   color: var(--clr-rosita);
-  padding: var(--padleft);
+  padding-left: var(--padleft);
 }
 .card-plan h2 {
   background-color: aliceblue;
