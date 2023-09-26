@@ -1,6 +1,7 @@
 const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
+const blob1 = document.querySelector("#blob1");
 
 abrir.addEventListener("click", () => {
   nav.classList.add("visible");
@@ -47,3 +48,4 @@ const cerrarModalCentro2 = document.querySelector("#cerrar-modal-ecommerce");
 cerrarModalCentro2.addEventListener("click", () => {
   modalCentro2.classList.remove("active");
 });
+/********** blob1 ******************/
