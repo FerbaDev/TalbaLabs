@@ -192,7 +192,7 @@ main {
 }
 .modal-centro {
   position: fixed;
-  top: 30%;
+  top: 1%;
   right: 10%;
   width: 80%;
 
@@ -217,6 +217,44 @@ main {
 }
 .modal-centro button {
   background-color: var(--clr-rosita);
+}
+.modal-costo {
+  border: 2px solid var(--clr-rosita);
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.modal-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/******************************** preguntas frecuentes ***************/
+
+.faq {
+  color: aliceblue;
+  padding: 20px;
+}
+
+/********************************quienes somos ***************/
+.quienes-somos {
+  color: aliceblue;
+  padding: 20px;
+  width: 100%;
+}
+.blob-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/********************************quienes somos ***************/
+
+.proyectos h2 {
+  color: aliceblue;
+  text-transform: uppercase;
+  padding: var(--padleft);
 }
 /**************** media queries ********************/
 
