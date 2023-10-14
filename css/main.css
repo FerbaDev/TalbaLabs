@@ -258,11 +258,13 @@ main {
 .proyectos h2 {
   text-transform: uppercase;
   padding-block: 20px;
+  background-color: transparent;
 }
 .proyectos-container {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  margin-top: 2em;
+  background-color: transparent;
 }
 .card-proyecto {
   width: 100%;
@@ -270,6 +272,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 2em;
+  margin-top: 2em;
 }
 .card-proyecto img {
   max-width: 345px;
