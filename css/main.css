@@ -249,13 +249,33 @@ main {
   display: flex;
   justify-content: center;
 }
-/********************************quienes somos ***************/
-
-.proyectos h2 {
+/********************************  proyectos  ***************/
+.proyectos {
   color: aliceblue;
-  text-transform: uppercase;
   padding: var(--padleft);
+  background-image: url("../imagenes/file.png");
 }
+.proyectos h2 {
+  text-transform: uppercase;
+  padding-block: 20px;
+}
+.proyectos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.card-proyecto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+.card-proyecto img {
+  max-width: 345px;
+  height: auto;
+}
+
 /**************** media queries ********************/
 
 @media screen and (max-width: 992px) {
