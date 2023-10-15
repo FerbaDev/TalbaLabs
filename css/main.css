@@ -273,6 +273,11 @@ main {
   align-items: center;
   gap: 2em;
   margin-top: 2em;
+  background-color: rgba(44, 30, 74, 0.8);
+  padding: 10px;
+}
+.card-proyecto p {
+  background-color: rgba(44, 30, 74, 0.8);
 }
 .card-proyecto img {
   max-width: 345px;
