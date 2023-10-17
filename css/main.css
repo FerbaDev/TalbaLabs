@@ -239,7 +239,9 @@ main {
 .modal-items p {
   background-color: aliceblue;
   color: var(--clr-rosita);
+  text-align: center;
 }
+
 .modal-items {
   display: flex;
   flex-direction: column;
