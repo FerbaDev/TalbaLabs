@@ -192,16 +192,17 @@ main {
 }
 .modal-centro {
   position: fixed;
-  top: 1%;
+  top: 10%;
   right: 10%;
   width: 80%;
-
+  max-height: 80%;
   color: aliceblue;
   font-weight: bold;
   padding: 2rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+
   gap: 1rem;
   visibility: hidden;
   opacity: 0;
@@ -229,6 +230,11 @@ main {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.scroll-div {
+  height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
 }
 
 /******************************** preguntas frecuentes ***************/
