@@ -275,6 +275,20 @@ main {
 .faq {
   color: aliceblue;
   padding: 20px;
+  background-color: #503c7c;
+  margin-top: -5px;
+}
+.faq-header {
+  background-color: #503c7c;
+  padding-bottom: 10px;
+}
+summary {
+  background-color: #503c7c;
+}
+details p {
+  background-color: #e27cf9;
+  padding: 10px;
+  color: #2c1e4a;
 }
 
 /********************************quienes somos ***************/
