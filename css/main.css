@@ -261,6 +261,7 @@ main {
 .scroll-div ul li {
   background-color: #503c7c;
   padding-left: 10px;
+  padding-top: 5px;
 }
 .modal-footer {
   display: flex;
