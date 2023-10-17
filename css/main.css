@@ -254,6 +254,10 @@ main {
   overflow: hidden;
   overflow-y: scroll;
 }
+.scroll-div ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
 .scroll-div ul li {
   background-color: #503c7c;
   padding-left: 10px;
