@@ -131,6 +131,7 @@ main {
   text-transform: uppercase;
   font-size: 2rem;
   padding: var(--padleft);
+  margin-top: 100px;
 }
 .info {
   display: flex;
