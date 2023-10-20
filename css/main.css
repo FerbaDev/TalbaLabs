@@ -292,6 +292,10 @@ main {
 summary {
   background-color: #503c7c;
 }
+details {
+  padding-top: 10px;
+  background-color: #503c7c;
+}
 details p {
   background-color: #e27cf9;
   padding: 10px;
