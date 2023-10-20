@@ -357,6 +357,10 @@ details p {
   max-width: 345px;
   height: auto;
 }
+.card-proyecto a {
+  color: azure;
+  text-decoration: none;
+}
 
 /**************** media queries ********************/
 
