@@ -418,6 +418,7 @@ details p {
   background: transparent;
 }
 /**************** footer ********************/
+
 footer {
   padding: var(--padleft);
   min-height: 500px;
@@ -427,17 +428,23 @@ footer {
 }
 .footer-title {
   font-size: 25px;
+  background: transparent;
 }
 .footer-body {
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background: transparent;
 }
 .contacto {
   display: flex;
   flex-direction: column;
   gap: 2em;
+  background: transparent;
+}
+.contacto h3 {
+  background: transparent;
 }
 .redes {
   border: 1px solid aliceblue;
@@ -454,6 +461,10 @@ footer {
   display: flex;
   flex-direction: row;
   gap: 1em;
+  background: transparent;
+}
+.redes-iconos i {
+  background: transparent;
 }
 
 /**************** media queries ********************/
