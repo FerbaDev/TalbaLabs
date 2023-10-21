@@ -37,7 +37,6 @@ svg {
 .texto-blanco h2,
 .texto-blanco p {
   background: transparent;
-  padding-bottom: 10px;
 }
 header {
   max-width: 100%;
@@ -335,6 +334,7 @@ details p {
 .quienes-somos h2,
 .quienes-somos p {
   background: transparent;
+  padding-top: 10px;
 }
 .blob-img {
   width: 100%;
@@ -408,6 +408,9 @@ details p {
   border-radius: 5px;
   padding-inline: 10px;
 }
+.card-proceso h2 {
+  padding-bottom: 20px;
+}
 .proceso-svg {
   width: 100%;
   display: flex;
@@ -422,19 +425,30 @@ footer {
   flex-direction: column;
   gap: 3em;
 }
+.footer-title {
+  font-size: 25px;
+}
 .footer-body {
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+.contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 .redes {
   border: 1px solid aliceblue;
   display: flex;
+  align-items: center;
   gap: 1em;
   width: fit-content;
-  padding: 10px;
+  padding: 10px 20px;
+
   text-transform: uppercase;
+  font-size: 20px;
 }
 .redes-iconos {
   display: flex;
