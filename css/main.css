@@ -443,7 +443,7 @@ footer {
   border: 1px solid aliceblue;
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 1.5em;
   width: fit-content;
   padding: 10px 20px;
 
@@ -453,7 +453,7 @@ footer {
 .redes-iconos {
   display: flex;
   flex-direction: row;
-  gap: 0.5em;
+  gap: 1em;
 }
 
 /**************** media queries ********************/
