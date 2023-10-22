@@ -15,6 +15,9 @@
   font-family: var(--font-roboto);
   background-color: var(--clr-violeta);
 }
+body {
+  overflow-x: hidden;
+}
 svg {
   background: transparent;
 }
@@ -87,11 +90,10 @@ main {
   display: flex;
   align-content: center;
   max-width: 100%;
-  padding-left: var(--padleft);
 }
 .card-presentacion {
   color: aliceblue;
-
+  padding-left: var(--padleft);
   display: flex;
   flex-direction: column;
   padding-block: 50px;
@@ -152,14 +154,19 @@ main {
   padding: var(--padleft);
   margin-top: 100px;
 }
-.info {
+.hacemos-container {
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+.info-texto {
+  padding: var(--padleft);
 }
 .info-p {
   font-size: 1.5em;
   width: 100%;
-  padding: var(--padleft);
+  /* padding: var(--padleft); */
 }
 .fondo-rosa p {
   background-color: #490049;
@@ -469,10 +476,35 @@ footer {
 
 /**************** media queries ********************/
 
+@media screen and (min-width: 1200px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    max-height: 95vh;
+    justify-content: space-around;
+  }
+
+  .card-presentacion {
+    padding-block: 40px;
+    max-width: 40%;
+  }
+  .card-presentacion h2 {
+    font-size: 4em;
+  }
+  .card-presentacion p {
+    font-size: 2em;
+  }
+  .blob1 {
+    max-width: 40%;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .hero {
     flex-direction: column;
     align-items: center;
+    max-height: 95vh;
+    max-width: 100%;
   }
   .card-presentacion {
     width: 100%;
@@ -480,7 +512,7 @@ footer {
     justify-content: center;
   }
   .blob1 {
-    width: 65%;
+    height: 300px;
   }
   .card-hacemos {
     padding-bottom: 10em;
