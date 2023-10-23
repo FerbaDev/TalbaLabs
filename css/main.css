@@ -412,6 +412,9 @@ details p {
   padding-block: 60px;
   background: transparent;
 }
+.proceso-header h2 {
+  background: transparent;
+}
 .proceso-blob {
   width: 100%;
   display: flex;
