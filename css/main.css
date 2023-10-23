@@ -3,6 +3,7 @@
 :root {
   --clr-violeta: #2c1e4a;
   --clr-violetaClaro: #e27cf9;
+  --clr-violetaOscuro: #503c7c;
   --clr-rosita: #d73cbe;
   --clr-negro: #1c1c1c;
   --font-roboto: "Roboto Mono", monospace;
@@ -87,7 +88,8 @@ main {
 }
 /************* HERO ***************/
 .hero {
-  display: flex;
+  display: grid;
+
   align-content: center;
   max-width: 100%;
 }
@@ -120,6 +122,12 @@ main {
     transform-origin: 0 0;
     opacity: 1;
   }
+}
+.blob {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .blob1 {
   width: 100%;
@@ -476,57 +484,10 @@ footer {
 
 /**************** media queries ********************/
 
-@media screen and (min-width: 1200px) {
-  .hero {
-    flex-direction: row;
-    align-items: center;
-    max-height: 95vh;
-    justify-content: space-around;
-  }
-
-  .card-presentacion {
-    padding-block: 40px;
-    max-width: 40%;
-  }
-  .card-presentacion h2 {
-    font-size: 4em;
-  }
-  .card-presentacion p {
-    font-size: 2em;
-  }
-  .blob1 {
-    max-width: 40%;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .hero {
-    flex-direction: column;
-    align-items: center;
-    max-height: 95vh;
-    max-width: 100%;
-  }
-  .card-presentacion {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .blob1 {
-    height: 300px;
-  }
-  .card-hacemos {
-    padding-bottom: 10em;
-  }
-  .info {
-    flex-direction: column;
-  }
-  .info p {
-    font-size: 2em;
-    width: 80%;
-  }
-}
-
 @media screen and (max-width: 780px) {
+  .hero {
+    flex-direction: column;
+  }
   .abrir-menu,
   .cerrar-menu {
     display: block;
@@ -575,10 +536,5 @@ footer {
   }
   .blob1 {
     width: 75%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .blob1 {
-    width: 80%;
   }
 }
