@@ -88,6 +88,7 @@ main {
 /************* HERO ***************/
 .hero {
   display: flex;
+  flex-direction: column;
   align-items: center;
   max-width: 100%;
 }
@@ -495,9 +496,6 @@ footer {
 /**************** media queries ********************/
 
 @media screen and (max-width: 780px) {
-  .hero {
-    flex-direction: column;
-  }
   .abrir-menu,
   .cerrar-menu {
     display: block;
@@ -561,6 +559,7 @@ footer {
   /************* HERO ***************/
   .hero {
     height: 95vh;
+    flex-direction: row;
   }
   .blob1 {
     width: 60%;
