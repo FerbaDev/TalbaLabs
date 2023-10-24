@@ -87,9 +87,8 @@ main {
 }
 /************* HERO ***************/
 .hero {
-  display: grid;
-
-  align-content: center;
+  display: flex;
+  align-items: center;
   max-width: 100%;
 }
 .card-presentacion {
@@ -548,4 +547,35 @@ footer {
   .blob1 {
     width: 75%;
   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /************* HERO ***************/
+  .hero {
+    height: 95vh;
+  }
+  .blob1 {
+    width: 60%;
+  }
+  .card-presentacion {
+    padding-left: 50px;
+  }
+  .card-presentacion h2 {
+    font-size: 5em;
+  }
+  .card-presentacion p {
+    font-size: 2em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
