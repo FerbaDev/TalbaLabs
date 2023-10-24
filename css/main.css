@@ -604,15 +604,21 @@ footer {
 
   /*********** seccion porque pagina web *************************/
   .seccion-porque {
-    padding-left: 50px;
     width: 100%;
   }
   .seccion-porque h2 {
     font-size: 3em;
-    padding: 50px 0;
+    padding: 50px 0 50px 50px;
+  }
+  .porque-container {
+    width: 100%;
+
+    margin: auto;
   }
   .info-texto {
     font-size: 1.5em;
+    width: 100%;
+    text-align: center;
   }
   /******************* servicios web*******************************/
 
@@ -627,6 +633,22 @@ footer {
   }
   .card-plan {
     width: 30%;
+  }
+
+  /******************************** preguntas frecuentes ***************/
+
+  .faq {
+    padding: 50px;
+  }
+  .faq-header {
+    padding-bottom: 30px;
+    font-size: 3em;
+  }
+  summary {
+    font-size: 1.5em;
+  }
+  details p {
+    font-size: 1.2em;
   }
 }
 
