@@ -167,8 +167,8 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.info-texto {
-  padding: var(--padleft);
+.hacemos-container p {
+  padding-left: var(--padleft);
 }
 .info-p {
   font-size: 1.5em;
@@ -183,6 +183,9 @@ main {
 
 .seccion-porque {
   padding-block: 3em;
+}
+.info-texto {
+  padding: var(--padleft);
 }
 
 /******************* servicios web*******************************/
@@ -606,9 +609,11 @@ footer {
   }
   .seccion-porque h2 {
     font-size: 3em;
-    padding: 50px 0 150px 0;
+    padding: 50px 0;
   }
-
+  .info-texto {
+    font-size: 1.5em;
+  }
   /******************* servicios web*******************************/
 
   .serv-section {
