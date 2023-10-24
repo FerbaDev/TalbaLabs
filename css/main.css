@@ -684,6 +684,69 @@ footer {
   .show {
     display: block;
   }
+  /********************************  proyectos  ***************/
+  .proyectos {
+    padding: 50px 50px 120px 50px;
+    background-size: cover;
+  }
+  .proyectos h2 {
+    text-transform: uppercase;
+    padding-block: 20px;
+    background-color: transparent;
+    font-size: 2.5em;
+  }
+  .proyectos-container {
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 4em;
+  }
+  .card-proyecto {
+    width: 30%;
+    padding: 20px;
+  }
+  /**************procesos ***************************/
+
+  .proceso-header {
+    padding-block: 60px;
+    background: transparent;
+  }
+  .proceso-header h2 {
+    padding-left: 50px;
+  }
+  .proceso-blob {
+    height: 200px;
+  }
+  .procesos {
+    padding-bottom: 150px;
+  }
+  .procesos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    background: transparent;
+  }
+  .card-proceso {
+    width: 22%;
+    text-align: center;
+  }
+  .card-proceso h2 {
+    padding-bottom: 20px;
+  }
+
+  /**************** footer ********************/
+
+  footer {
+    padding: 50px;
+    border-top: 1px solid #d73cbe;
+    margin-top: 10px;
+  }
+  .footer-title {
+    font-size: 30px;
+  }
+  .redes {
+    margin-left: 50px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
