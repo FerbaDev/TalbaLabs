@@ -49,7 +49,12 @@ header {
   padding: var(--padleft);
   background-color: var(--clr-violeta);
 }
-
+a {
+  color: inherit;
+}
+a:hover {
+  transform: scale(1.1);
+}
 .logo {
   color: var(--clr-rosita);
 }

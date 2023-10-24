@@ -20,10 +20,10 @@
       <nav class="nav" id="nav">
         <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
         <ul class="nav-list">
-          <li><a href="#">Quienes somos</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#quienes-somos">Quienes somos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
@@ -137,7 +137,7 @@
       <!-- ************ Servicios web *************** -->
       <section class="serv-section">
         <div class="serv-info">
-          <h2>Servicios web</h2>
+          <h2 id="servicios">Servicios web</h2>
           <p>
             Encontrá el plan que se adapte a las necesidades de tu negocio.
             Ayudamos a pequeñas empresas y trabajadores independientes a tener
@@ -509,7 +509,7 @@
           d="M0,256L1440,96L1440,320L0,320Z"
         ></path>
       </svg>
-      <section class="quienes-somos texto-blanco">
+      <section class="quienes-somos texto-blanco" id="quienes-somos">
         <div class="quienes-somos-card">
           <div class="quienes-somos-texto">
             <h2>¿Quienes somos?</h2>
@@ -596,17 +596,17 @@
       <!-- ****************** proyectos ************* -->
 
       <section class="proyectos">
-        <h2>Algunos de nuestros proyectos</h2>
+        <h2 id="proyectos">Algunos de nuestros proyectos</h2>
         <div class="proyectos-container">
           <div class="card-proyecto">
             <a href="https://www.mariashoes.com.ar" target="_blank">
               <img src="./imagenes/captura-maria.jpeg" alt="" />
             </a>
-            <h3>
-              <a href="https://www.mariashoes.com.ar" target="_blank"
-                >MariaShoes.com.ar</a
-              >
-            </h3>
+
+            <a href="https://www.mariashoes.com.ar" target="_blank"
+              ><h3>MariaShoes.com.ar</h3></a
+            >
+
             <p>
               Ecommerce con Mercado Pago. Galería de productos. Detalle de
               productos. Información sobre la tienda. Sección para administrar
@@ -614,17 +614,15 @@
             </p>
           </div>
           <div class="card-proyecto">
-            <a href="https://www.cactivas.com.ar" target="_blank">
+            <a href="https://wwww.cactivas.com.ar" target="_blank">
               <img
                 src="./imagenes/Captura de pantalla 2023-08-28 00.03.59 (1).png"
                 alt=""
               />
             </a>
-            <h3>
-              <a href="https://www.cactivas.com.ar" target="_blank"
-                >Cactivas.com.ar</a
-              >
-            </h3>
+            <a href="https://wwww.cactivas.com.ar" target="_blank">
+              <h3>Cactivas.com.ar</h3>
+            </a>
             <p>
               Sitio web con 5 páginas. Información sobre la empresa. Fotos.
               Servicios y productos. Contacto y redes sociales.
@@ -822,7 +820,7 @@
       <!--------------------------------- FOOTER ------------------------------->
 
       <footer>
-        <div class="footer-title">
+        <div class="footer-title" id="contacto">
           <h2 class="texto-blanco">Hablemos de negocios</h2>
         </div>
         <div class="footer-body">
@@ -839,9 +837,18 @@
           <div class="redes texto-blanco">
             <h2>Redes</h2>
             <div class="redes-iconos">
-              <i class="bi bi-whatsapp"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
+              <a
+                href="https://wa.me/5493571573266?text=¡Estoy+interesado!"
+                target="_blank"
+              >
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a href="https://www.facebook.com/talbalabs/" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/talbalabs/" target="_blank">
+                <i class="bi bi-instagram"></i>
+              </a>
             </div>
           </div>
         </div>
