@@ -459,6 +459,11 @@ details p {
   justify-content: center;
   background: transparent;
 }
+.procesos-container {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
 /**************** footer ********************/
 
 footer {
@@ -726,11 +731,9 @@ footer {
     padding-bottom: 150px;
   }
   .procesos-container {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 50px;
-    background: transparent;
   }
   .card-proceso {
     width: 22%;
