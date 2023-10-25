@@ -255,14 +255,20 @@ main {
   color: aliceblue;
   font-weight: bold;
   border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+
   visibility: hidden;
   opacity: 0;
   transform: scale(0.5);
   transition: 0.3s;
-  box-shadow: 0 0 0 500vmax rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 500vmax rgba(0, 0, 0, 0.8);
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0px -1px 42px 0px rgba(215, 60, 190, 0.71);
+  -webkit-box-shadow: 0px -1px 42px 0px rgba(215, 60, 190, 0.71);
+  -moz-box-shadow: 0px -1px 42px 0px rgba(215, 60, 190, 0.71);
 }
 .modal-header p {
   padding-left: 10px;
