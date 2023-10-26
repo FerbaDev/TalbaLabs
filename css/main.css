@@ -716,6 +716,7 @@ footer {
     flex-direction: row;
     gap: 1em;
     margin-top: 4em;
+    justify-content: space-around;
   }
   .card-proyecto {
     width: 30%;
