@@ -246,6 +246,7 @@ main {
   transform: scale(1.1);
   background-color: #503c7c;
 }
+/***************** modales **************************/
 .modal-centro {
   position: fixed;
   top: 10%;
@@ -281,10 +282,6 @@ main {
   transform: scale(1);
   opacity: 1;
   visibility: visible;
-}
-.modal-centro button {
-  background-color: var(--clr-rosita);
-  width: 50%;
 }
 
 .modal-costo {
@@ -331,6 +328,24 @@ main {
   align-items: center;
   gap: 0.5em;
   padding-bottom: 10px;
+}
+.modal-footer button {
+  background-color: var(--clr-rosita);
+  width: 50%;
+  font-size: 1em;
+  color: #1c1c1c;
+}
+
+.modal-footer a {
+  background-color: var(--clr-rosita);
+  width: 50%;
+  text-align: center;
+  color: #1c1c1c;
+  font-size: 1em;
+}
+.boton-contacto {
+  width: 100%;
+  border: none;
 }
 
 /******************************** preguntas frecuentes ***************/
