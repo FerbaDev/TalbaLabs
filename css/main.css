@@ -372,6 +372,11 @@ details p {
   padding: 10px;
   color: #2c1e4a;
 }
+.summary-interno {
+  background-color: #e27cf9;
+  padding: 10px;
+  margin-top: -15px;
+}
 
 /********************************quienes somos ***************/
 .quienes-somos {
