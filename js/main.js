@@ -12,18 +12,18 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
   nav.classList.remove("visible");
 });
-/****modal landing */
-const botonLanding = document.getElementById("plan-landing");
-botonLanding.addEventListener("click", () => {
-  modalCentro.classList.add("active");
-});
+// /****modal landing */
+// const botonLanding = document.getElementById("plan-landing");
+// botonLanding.addEventListener("click", () => {
+//   modalCentro.classList.add("active");
+// });
 
-const modalCentro = document.querySelector("#modal-landing");
-const cerrarModalCentro = document.querySelector("#cerrar-modal-landing");
+// const modalCentro = document.querySelector("#modal-landing");
+// const cerrarModalCentro = document.querySelector("#cerrar-modal-landing");
 
-cerrarModalCentro.addEventListener("click", () => {
-  modalCentro.classList.remove("active");
-});
+// cerrarModalCentro.addEventListener("click", () => {
+//   modalCentro.classList.remove("active");
+// });
 
 /******modal sitio */
 const botonSitio = document.getElementById("plan-sitio");
