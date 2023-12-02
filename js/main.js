@@ -26,28 +26,28 @@ cerrar.addEventListener("click", () => {
 // });
 
 /******modal sitio */
-const botonSitio = document.getElementById("plan-sitio");
-botonSitio.addEventListener("click", () => {
-  modalCentro1.classList.add("active");
-});
+// const botonSitio = document.getElementById("plan-sitio");
+// botonSitio.addEventListener("click", () => {
+//   modalCentro1.classList.add("active");
+// });
 
-const modalCentro1 = document.querySelector("#modal-sitio");
-const cerrarModalCentro1 = document.querySelector("#cerrar-modal-sitio");
+// const modalCentro1 = document.querySelector("#modal-sitio");
+// const cerrarModalCentro1 = document.querySelector("#cerrar-modal-sitio");
 
-cerrarModalCentro1.addEventListener("click", () => {
-  modalCentro1.classList.remove("active");
-});
+// cerrarModalCentro1.addEventListener("click", () => {
+//   modalCentro1.classList.remove("active");
+// });
 
-/*****modal ecommerce */
-const botonEcommerce = document.getElementById("plan-ecommerce");
-botonEcommerce.addEventListener("click", () => {
-  modalCentro2.classList.add("active");
-});
+// /*****modal ecommerce */
+// const botonEcommerce = document.getElementById("plan-ecommerce");
+// botonEcommerce.addEventListener("click", () => {
+//   modalCentro2.classList.add("active");
+// });
 
-const modalCentro2 = document.querySelector("#modal-ecommerce");
-const cerrarModalCentro2 = document.querySelector("#cerrar-modal-ecommerce");
+// const modalCentro2 = document.querySelector("#modal-ecommerce");
+// const cerrarModalCentro2 = document.querySelector("#cerrar-modal-ecommerce");
 
-cerrarModalCentro2.addEventListener("click", () => {
-  modalCentro2.classList.remove("active");
-});
-/********** blob1 ******************/
+// cerrarModalCentro2.addEventListener("click", () => {
+//   modalCentro2.classList.remove("active");
+// });
+// /********** scrol ******************/
