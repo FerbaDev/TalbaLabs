@@ -238,18 +238,20 @@ main {
 /******************************** planes  ***************/
 .planes {
   color: aliceblue;
+  padding: 20px;
 }
 .plan-container {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 .plan-header p {
   padding-left: 10px;
 }
 .plan-header h2 {
   text-align: center;
-  padding-block: 10px;
+  padding: 40px 0 10px 0;
 }
 .plan-costo {
   border: 2px solid var(--clr-rosita);
@@ -291,6 +293,8 @@ main {
 .plan-div ul {
   list-style-type: square;
   list-style-position: inside;
+  padding-block: 10px;
+  background-color: #503c7c;
 }
 .plan-div ul li {
   background-color: #503c7c;
