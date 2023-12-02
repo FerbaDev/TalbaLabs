@@ -282,6 +282,17 @@ main {
   color: var(--clr-rosita);
   text-align: center;
 }
+.plan-div ul {
+  list-style-type: square;
+  list-style-position: inside;
+  padding-block: 10px;
+  background-color: #503c7c;
+}
+.plan-div ul li {
+  background-color: #503c7c;
+  padding-left: 10px;
+  padding-top: 5px;
+}
 .plan-footer {
   display: flex;
   flex-direction: column;
@@ -297,17 +308,7 @@ main {
   text-align: center;
   color: #1c1c1c;
   font-size: 1em;
-}
-.plan-div ul {
-  list-style-type: square;
-  list-style-position: inside;
-  padding-block: 10px;
-  background-color: #503c7c;
-}
-.plan-div ul li {
-  background-color: #503c7c;
-  padding-left: 10px;
-  padding-top: 5px;
+  padding: 10px;
 }
 
 /******************************** preguntas frecuentes ***************/
