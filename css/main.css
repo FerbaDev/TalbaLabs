@@ -271,6 +271,10 @@ main {
   gap: 5px;
   background-color: aliceblue;
 }
+.plan-costo-tit {
+  text-decoration: underline;
+  font-size: 1.2em;
+}
 .plan-costo h4,
 .plan-items h4,
 .plan-items p {
