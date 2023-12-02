@@ -234,106 +234,7 @@ main {
   background-color: #503c7c;
 }
 /***************** modales **************************/
-.modal-centro {
-  position: fixed;
-  top: 10%;
-  right: 10%;
-  width: 80%;
-  max-height: 80%;
-  color: aliceblue;
-  font-weight: bold;
-  border-radius: 1rem;
 
-  visibility: hidden;
-  opacity: 0;
-  transform: scale(0.5);
-  transition: 0.3s;
-  box-shadow: 0 0 0 500vmax rgba(0, 0, 0, 0.8);
-}
-.modal-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  box-shadow: 0px -1px 42px 0px rgba(215, 60, 190, 0.71);
-  -webkit-box-shadow: 0px -1px 42px 0px rgba(215, 60, 190, 0.71);
-  -moz-box-shadow: 0px -1px 42px 0px rgba(215, 60, 190, 0.71);
-}
-.modal-header p {
-  padding-left: 10px;
-}
-.modal-header h2 {
-  text-align: center;
-  padding-block: 10px;
-}
-.modal-centro.active {
-  transform: scale(1);
-  opacity: 1;
-  visibility: visible;
-}
-
-.modal-costo {
-  border: 2px solid var(--clr-rosita);
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  background-color: aliceblue;
-  color: var(--clr-rosita);
-}
-.modal-costo h4,
-.modal-items h4,
-.modal-items p {
-  background-color: aliceblue;
-  color: var(--clr-rosita);
-  text-align: center;
-}
-
-.modal-items {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  background-color: aliceblue;
-}
-
-.scroll-div {
-  height: 400px;
-  overflow: hidden;
-  overflow-y: scroll;
-}
-.scroll-div ul {
-  list-style-type: square;
-  list-style-position: inside;
-}
-.scroll-div ul li {
-  background-color: #503c7c;
-  padding-left: 10px;
-  padding-top: 5px;
-}
-.modal-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5em;
-  padding-bottom: 10px;
-}
-.modal-footer button {
-  background-color: var(--clr-rosita);
-  width: 50%;
-  font-size: 1em;
-  color: #1c1c1c;
-}
-
-.modal-footer a {
-  background-color: var(--clr-rosita);
-  width: 50%;
-  text-align: center;
-  color: #1c1c1c;
-  font-size: 1em;
-}
-.boton-contacto {
-  width: 100%;
-  border: none;
-}
 /******************************** planes  ***************/
 .planes {
   color: aliceblue;
@@ -359,6 +260,12 @@ main {
   background-color: aliceblue;
   color: var(--clr-rosita);
 }
+.plan-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: aliceblue;
+}
 .plan-costo h4,
 .plan-items h4,
 .plan-items p {
@@ -381,6 +288,16 @@ main {
   color: #1c1c1c;
   font-size: 1em;
 }
+.plan-div ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+.plan-div ul li {
+  background-color: #503c7c;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
 /******************************** preguntas frecuentes ***************/
 
 .faq {
