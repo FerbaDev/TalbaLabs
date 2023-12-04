@@ -33,10 +33,15 @@ svg {
 }
 .texto-blanco {
   color: aliceblue;
-
   background: transparent;
 }
-
+address {
+  font-style: normal;
+}
+em {
+  font-style: normal;
+  background: transparent;
+}
 .texto-blanco h2,
 .texto-blanco p {
   background: transparent;
@@ -472,6 +477,23 @@ footer {
   justify-content: space-around;
   background: transparent;
 }
+.footer-sec-1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+}
+
+.local {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+.local i {
+  font-size: 20px;
+}
 .contacto {
   display: flex;
   flex-direction: column;
@@ -744,6 +766,17 @@ footer {
   }
   .redes {
     margin-left: 50px;
+  }
+  .footer-body {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-sec-1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
   }
 }
 
